@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.stream.IntStream;
 
-@CrossOrigin(origins = "http://localhost:4200")
+
 @RestController
 @SpringBootApplication
 public class BtreeApplication {

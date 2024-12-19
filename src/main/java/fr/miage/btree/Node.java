@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Node<TKey extends Comparable<TKey>> {
+
+    // Ordre de 5 correspondant à un ordre 2 dans le cours que nous avons vu
+    // Défini le nombre maximum d'enfants que peut avoir un noeud
     protected final static int INNER_ORDER = 5;
     @JsonView(Views.Public.class)
     protected List<TKey> keys;
